@@ -5,6 +5,8 @@ Made by Finbar#0001 (811751283555172433)
 Written in: HTML, Javascript, PHP
 <br>
 Prerequisites: Web server w/ PHP installed, SQL database
+<br>
+For use with Discord Bot Maker v1.6.10 using discord.js@v1.12
 
 # Installation
 
