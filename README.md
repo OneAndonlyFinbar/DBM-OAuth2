@@ -4,7 +4,7 @@ Made by Finbar#0001 (811751283555172433)
 <br>
 Written in: HTML, Javascript, PHP
 
-prerequisites: Web server, SQL database
+prerequisites: Web server w/ PHP installed, SQL database
 
 # Installation
 
