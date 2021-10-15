@@ -4,6 +4,8 @@ Made by Finbar#0001 (811751283555172433)
 <br>
 Written in: HTML, Javascript, PHP
 
+prerequisites: Web server, SQL database
+
 # Installation
 
 1. Clone github repository
@@ -18,4 +20,5 @@ Written in: HTML, Javascript, PHP
 10. Modify your OAuth2 linkL Where it says `&response_type=code` in the url, change it to `&response_type=token`
 11. In `auth.html` on line 9 change the href location to your modified redirect link.
 12. CD Into your bots directory and run `npm i sync-mysql`
-
+13. Go into your SQL server and run [this SQL command](https://github.com/OneAndonlyFinbar/dbm-oauth2/blob/main/createDatabase.sql) in your database
+14. Restart bot, web server, and database.
