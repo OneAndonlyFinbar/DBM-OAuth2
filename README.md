@@ -21,4 +21,4 @@ Prerequisites: Web server w/ PHP installed, SQL database
 11. In `auth.html` on line 9 change the href location to your modified redirect link.
 12. CD Into your bots directory and run `npm i sync-mysql`
 13. Go into your SQL server and run [this SQL command](https://github.com/OneAndonlyFinbar/dbm-oauth2/blob/main/createDatabase.sql) in your database
-14. Restart bot, web server, and database.
+14. Restart web server. Restart sql server. Reload actions and or DBM. Start bot.
