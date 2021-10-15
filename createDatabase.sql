@@ -7,7 +7,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 
 CREATE DATABASE DBMOAUTH2;
 
-CREATE TABLE `data` (
+CREATE TABLE `DBMOAUTH2`.`data` (
   `id` longtext NOT NULL,
   `username` longtext DEFAULT NULL,
   `discriminator` longtext DEFAULT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE `data` (
   `guilds` longtext DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-ALTER TABLE `data`
+ALTER TABLE `DBMOAUTH2`.`data`
   ADD PRIMARY KEY (`id`(128));
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
