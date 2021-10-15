@@ -1,10 +1,10 @@
 # DBM Oauth2
 
 Made by Finbar#0001 (811751283555172433)
-<br>
+<br><br>
 Written in: HTML, Javascript, PHP
-
-prerequisites: Web server w/ PHP installed, SQL database
+<br>
+Prerequisites: Web server w/ PHP installed, SQL database
 
 # Installation
 
