@@ -26,3 +26,4 @@ For use with Discord Bot Maker v1.6.10 using discord.js@v1.12
 14. Restart web server. Restart sql server. Reload actions and or DBM. Start bot.
 
 **From this point the mod will be functional. However, you should take an extra step to secure your users data by changing the database user password.**
+[CLICK HERE FOR MORE INFO](https://github.com/OneAndonlyFinbar/DBM-OAuth2/wiki/Securing-the-database-user)
