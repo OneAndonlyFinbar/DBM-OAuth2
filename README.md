@@ -24,3 +24,5 @@ For use with Discord Bot Maker v1.6.10 using discord.js@v1.12
 12. CD Into your bots directory and run `npm i sync-mysql`
 13. Go into your SQL server and run [this SQL command](https://github.com/OneAndonlyFinbar/dbm-oauth2/blob/main/createDatabase.sql) in your database
 14. Restart web server. Restart sql server. Reload actions and or DBM. Start bot.
+
+From this point the mod will be functional. However, you should take an extra step to secure your users data by changing the database user password.
