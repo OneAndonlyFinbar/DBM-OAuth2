@@ -7,6 +7,9 @@ Written in: HTML, Javascript, PHP
 Prerequisites: Web server w/ PHP installed, SQL database
 <br>
 For use with Discord Bot Maker v1.6.10 using discord.js@v1.12
+<br><br>
+
+With this mod you can store a users id, email, and guilds from oauth2
 
 # Installation
 
