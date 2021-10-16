@@ -64,6 +64,8 @@ window.onload = () => {
                 },error: function(jqXHR, exception){
                     if(jqXHR.status === 0) return;
                     console.log('AJAX ERROR: ' + exception);
+                },complete: function(){
+                    window.close();
                 }
             })
         })
