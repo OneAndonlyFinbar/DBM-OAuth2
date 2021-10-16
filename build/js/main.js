@@ -30,10 +30,9 @@ window.onload = () => {
             dataType: "text",
             data: {data: data},
             success: function(resultData){
-                console.log('success');
-                console.log('DATA: ' + resultData);
+
             },error: function(jqXHR, exception){
-                if(jqXHR.status === 0) return console.log('that one error.. main.js:41');
+                if(jqXHR.status === 0) return;
                 console.log('AJAX ERROR: ' + exception);
             }
         })
@@ -61,7 +60,12 @@ window.onload = () => {
                 dataType: "text",
                 data: {data: data},
                 success: function(resultData){
-                    console.log('GUILDS: ' + resultData);
+
+                },error: function(jqXHR, exception){
+                    if(jqXHR.status === 0) return;
+                    console.log('AJAX ERROR: ' + exception);
+                },complete: function(){
+                    window.close();
                 }
             })
         })
