@@ -19,7 +19,7 @@ For use with Discord Bot Maker v1.6.10 using discord.js@v1.12
 7. Go to the Oauth2 URL Generator and select your redirect URL
 8. Apply the scopes `identify`, `email`, and `guilds`
 9. Copy the OAuth2 link
-10. Modify your OAuth2 linkL Where it says `&response_type=code` in the url, change it to `&response_type=token`
+10. Modify your OAuth2 link Where it says `&response_type=code` in the url, change it to `&response_type=token`
 11. In `auth.html` on line 9 change the href location to your modified redirect link.
 12. CD Into your bots directory and run `npm i sync-mysql`
 13. Go into your SQL server and run [this SQL command](https://github.com/OneAndonlyFinbar/dbm-oauth2/blob/main/createDatabase.sql) in your database
