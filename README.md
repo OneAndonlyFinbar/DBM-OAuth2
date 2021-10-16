@@ -11,8 +11,8 @@ For use with Discord Bot Maker v1.6.10 using discord.js@v1.12
 # Installation
 
 1. Clone github repository
-2. Drag contents of the `/actions` directory to your bots actions folder
-3. Drag the `/js` and `/php` directories along with the `auth.html` file to a web server
+2. Drag contents of the `/actions/` directory to your bots actions folder
+3. Drag the `/js/` and `/php/` directories in the `/build/` directory along with the `/auth.html` file in the `/build/` directory to a web server
 4. Go to the [discord developer portal application page](https://discord.com/developers/applications) and create a new application
 5. Click on your application and go to the Oauth2 panel
 6. Add a redirect to `yourserveraddress/auth.html`
