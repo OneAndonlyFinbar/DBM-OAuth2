@@ -1,1 +1,1 @@
-Web build only.
+Web only build.
