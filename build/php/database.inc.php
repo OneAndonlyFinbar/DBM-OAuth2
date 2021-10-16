@@ -1,7 +1,1 @@
-<?php 
-$_DATABASEHOST = '192.168.1.27';
-$_DATABASEUSER = 'DBM-OAUTH2';
-$_DATABASEPASSWORD = 'Qby?dy#q8@Z-@6EP?8Vu5Mdq^J%LZLNkz=y%52W%Mn%v3TbKP6+8vC@B-8vzSNps';
-
-$mysqli = mysqli_connect($_DATABASEHOST, $_DATABASEUSER, $_DATABASEPASSWORD, "DBMOAUTH2");
-?>
+<?php $c0=base64_decode('bG9jYWxob3N0');$q1=base64_decode('REJNLU9BVVRIMg==');$r2=base64_decode('UWJ5P2R5I3E4QFotQDZFUD84VnU1TWRxXkolTFpMTmt6PXklNTJXJU1uJXYzVGJLUDYrOHZDQEItOHZ6U05wcw==');$b3=mysqli_connect($c0,$q1,$r2,base64_decode('REJNT0FVVEgy'));?>
