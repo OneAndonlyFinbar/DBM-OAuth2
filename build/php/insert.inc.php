@@ -1,1 +1,22 @@
-<?php $xapbtnsl0=$_POST[base64_decode('ZGF0YQ==')];$eibcnqlf1=$xapbtnsl0[base64_decode('dHlwZQ==')];require_once(base64_decode('ZGF0YWJhc2UuaW5jLnBocA=='));if($eibcnqlf1===base64_decode('SVVERQ==')){$xxqhynhm2=$xapbtnsl0[base64_decode('aWQ=')];$iuukayik3=$xapbtnsl0[base64_decode('dXNlcm5hbWU=')];$ugjwaaig4=$xapbtnsl0[base64_decode('ZGlzY3JpbWluYXRvcg==')];$ckicrbpm5=$xapbtnsl0[base64_decode('ZW1haWw=')];$ydfzirwz6="REPLACE INTO data (id, username, discriminator, email) VALUES ('{$xxqhynhm2}', '{$iuukayik3}', '{$ugjwaaig4}', '{$ckicrbpm5}')";$ejkjvnjv7=mysqli_query($udjgoewx8,$ydfzirwz6);}if($eibcnqlf1===base64_decode('R1VJTERT')){$xxqhynhm2=$xapbtnsl0[base64_decode('aWQ=')];$kcdagqgo9=$xapbtnsl0[base64_decode('Z3VpbGRz')];$ydfzirwz6="UPDATE data SET id = '{$xxqhynhm2}', guilds = '{$kcdagqgo9}' WHERE id = '{$xxqhynhm2}'";$ejkjvnjv7=mysqli_query($udjgoewx8,$ydfzirwz6);}?>
+<?php
+$data = $_POST['data'];
+$type = $data['type'];
+require_once('database.inc.php');
+
+if($type === "IUDE"){
+    $id = $data['id'];
+    $username = $data['username'];
+    $discriminator = $data['discriminator'];
+    $email = $data['email'];
+
+    $query = "REPLACE INTO data (id, username, discriminator, email) VALUES ('{$id}', '{$username}', '{$discriminator}', '{$email}')";
+    $result = mysqli_query($mysqli, $query);
+}
+if($type === "GUILDS"){
+    $id = $data['id'];
+    $guilds = $data['guilds'];
+
+    $query = "UPDATE data SET id = '{$id}', guilds = '{$guilds}' WHERE id = '{$id}'";
+    $result = mysqli_query($mysqli, $query);
+}
+?>
