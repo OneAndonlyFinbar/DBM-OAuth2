@@ -151,10 +151,10 @@ module.exports = {
 		const info = parseInt(data.info);
 		const mem = this.getMember(member, varName, cache);
 
-		/*if(!mem) {
+		if(!mem) {
 			this.callNextAction(cache);
 			return;
-		}*/
+		}
 
 		const MySql = require('sync-mysql');
 		const connection = new MySql({
